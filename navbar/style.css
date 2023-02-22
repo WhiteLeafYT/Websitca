@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+* {
+    background-color: #232528;
+    color: white;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    padding-top: 13px;
+    gap: 280px;
+}
+#navbar-left {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+}
+#navbar-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+    padding-right: 89px;
+}
+.essentials {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+h3 {
+    margin: 0%;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+}
+.extra {
+    display: flex;
+    align-items: center;
+    padding-bottom: 7px;
+    font-size: 100px;
+}
+#dots {
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+.body-1 { 
+    display: flex;
+    justify-content: center;
+}
+.bodyImage {
+    width: 631px;
+    height: 697.38px;
+    border-radius: 8px;
+}
+h1 {
+    font-size: 70px;
+    width: 600px;
+    padding-top: 25px;
+    font-family: 'Comfortaa', cursive;
+}
+p {
+    color: gray;
+    font-family: 'Comfortaa', cursive;
+    width: 650px;
+}
+.button {
+    width: 147px;
+    height: 42px;
+    border-radius: 8px;
+    color: #9589ff;
+    background-color: #5547d728;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    border-color: transparent;
+    font-weight: 700;
+    cursor: pointer;
+}
+.button:hover {
+    color: #fff;
+    background-color: #9589ff;
+}
+#ownModifications {
+    color: #fff;
+    margin-top: 110px;
+}
+#ourStory {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+#story {
+    display: inline-block;
+    margin-left: 10px;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+}
+.cards {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 350px;
+    gap: 15px;
+}
+.travelCards {
+    width: 25%;
+    height: 137px;
+    display: flex;
+    background-color: black;
+}
+.cardImages { 
+    width: 50%;
+}
+.cardStructure {
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+}
